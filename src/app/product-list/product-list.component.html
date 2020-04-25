@@ -1,0 +1,32 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        
+        <h1>{{pageTitle}}</h1>
+
+    <table border="1" class="table" *ngIf='products && products.length'>
+        <thead>
+      <tr >
+        <th>Name</th>
+        <th>RollNo</th>
+        <th>Branch</th>
+        <th>Action</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor='let product of products'>
+        <td>{{product.name}}</td>
+        <td>{{product.roll}}</td>
+        <td>{{product.branch}}</td>
+        <td><button class="btn btn-success"><i class="fa fa-edit"></i></button>&nbsp;
+        <button class="btn btn-danger"><i class="fa fa-trash"></i></button></td>
+        
+    </tr>
+</tbody>
+    </table>
+
+    </body>
+</html>
+
