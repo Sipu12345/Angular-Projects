@@ -1,2 +1,2 @@
-# Angular-Projects
-This repository is used for push my Angular projects
+# Python-Concepts
+This repository is used for push my Small Python Learning Concepts
